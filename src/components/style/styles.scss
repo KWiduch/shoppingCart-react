@@ -1,0 +1,18 @@
+@mixin btn-black {
+  border: solid 1px black;
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  &:hover {
+    color: black;
+    background-color: white;
+  }
+}
+@import "./Cart";
+@import "./CartItem";
+* {
+  font-family: "Roboto", sans-serif;
+}

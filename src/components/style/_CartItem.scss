@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  height: 200px;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  margin: 10px 0px;
+}
+@media only screen and (max-width: 1160px) {
+  .container {
+    transform: translateX(-120px);
+    border: none;
+    display: flex;
+    margin: 0;
+    max-width: 200px;
+    img {
+      display: none;
+      margin: 0;
+    }
+    .cart__del {
+      display: none;
+    }
+    .cart__quantity {
+      margin: 0;
+      padding: 2px;
+    }
+    .cart__name {
+      padding-right: 20px;
+    }
+  }
+}
